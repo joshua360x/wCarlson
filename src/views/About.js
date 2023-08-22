@@ -2,7 +2,7 @@
 import IndexHeadImg from 'components/Headers/IndexHeadImg'
 import IndexNavbar from 'components/Navbars/IndexNavbar';
 import React from 'react'
-import SectionTypography from './index-sections/SectionTypography';
+// import SectionTypography from './index-sections/SectionTypography';
 import SectionDownload from './index-sections/SectionDownload';
 import DemoFooter from 'components/Footers/DemoFooter';
 
