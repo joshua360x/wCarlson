@@ -40,7 +40,7 @@ function SectionDownload({title, description, cite}) {
               <Button
                 className="btn-round"
                 color="danger"
-                href="https://revelationsofjesuschrist.com/contact-2/"
+                href="https://revelationsofjesuschrist.com/"
                 target="_blank"
               >
                 Join the FIGHT
@@ -71,7 +71,7 @@ function SectionDownload({title, description, cite}) {
               <h3>Follow Us As We Follow Christ!</h3>
             </Col>
             <Col className="text-center" lg="8" md="12">
-              <Button
+              {/* <Button
                 className="twitter-sharrre btn-round"
                 color="twitter-bg"
                 href="#pablo"
@@ -82,7 +82,7 @@ function SectionDownload({title, description, cite}) {
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip3373767">
                 Tweet!
-              </UncontrolledTooltip>
+              </UncontrolledTooltip> */}
               <Button
                 className="linkedin-sharrre btn-round  ml-2"
                 color="google-bg"
@@ -97,13 +97,14 @@ function SectionDownload({title, description, cite}) {
                 Watch!
               </UncontrolledTooltip>
               <Button
-                className="facebook-sharrre btn-round ml-2"
+                className="instagram-sharrre btn-round ml-2"
                 color="facebook-bg"
-                href="#pablo"
+                href="https://www.instagram.com/revelationsofjesuschrist_rojc/"
                 id="tooltip68961360"
-                onClick={(e) => e.preventDefault()}
+                target="_blank"
+                // onClick={(e) => e.preventDefault()}
               >
-                <i className="fa fa-facebook-square" /> Facebook
+                <i className="fa fa-instagram" /> Instagram
               </Button>
               <UncontrolledTooltip delay={0} target="tooltip68961360">
                 Share!
