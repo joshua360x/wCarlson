@@ -70,7 +70,7 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
+            href="/"
             target="_blank"
             title="Coded by Creative Tim"
           >
@@ -128,13 +128,13 @@ function IndexNavbar() {
               </NavLink>
             </NavItem> */}
             <NavItem>
-            <NavLink to="/index" tag={Link}>
+            <NavLink to="/" tag={Link}>
                 {/* <i className="nc-icon nc-layout-11" />  */}
                 Home
               </NavLink>
             </NavItem>
             <NavItem>
-            <NavLink to="/index/about" tag={Link}>
+            <NavLink to="/about" tag={Link}>
                 {/* <i className="nc-icon nc-layout-11" />  */}
                 About Me
               </NavLink>
