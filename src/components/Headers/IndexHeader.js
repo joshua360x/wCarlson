@@ -39,9 +39,20 @@ function IndexHeader({title, tagline, media}) {
         // }}
       >
         
-        <video className="videoBack" autoPlay loop muted>
+        {/* <video className="videoBack" autoPlay loop muted>
           <source src={backgroundVideo} type='video/mp4' />
-      </video>
+      </video> */}
+
+<div className="videoBack" dangerouslySetInnerHTML={{ __html: `
+        <video
+          loop
+          muted
+          autoplay
+          src="${backgroundVideo}"
+          class="videoBack"
+        />,
+      ` }}></div>
+
         <div className="filter" />
         <div className="content-center">
           <Container>
