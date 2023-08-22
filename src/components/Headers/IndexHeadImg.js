@@ -24,7 +24,7 @@ import { Container } from "reactstrap";
 
 import './IndexHeader.css'
 
-// import backgroundVideo from '../../assets/img/newvidample.mp4'
+import backgroundVideo from '../../assets/img/lioness-vid.mp4'
 
 // core components
 
@@ -33,12 +33,22 @@ function IndexHeader({title, tagline}) {
     <>
       <div
         className="page-header section-dark"
-        style={{
-          backgroundImage:
-            "url(" + require("assets/img/bible-img-modified.jpg") + ")",
-        }}
+        // style={{
+        //   backgroundImage:
+        //     "url(" + require("assets/img/bible-img-modified.jpg") + ")",
+        // }}
       >
-        
+        <div className="videoBack" dangerouslySetInnerHTML={{ __html: `
+        <video
+          loop
+          muted
+          playsinline
+          autoplay
+          src="${backgroundVideo}"
+          class="videoBack"
+        />,
+      ` }}></div>
+
         {/* <video className="videoBack" autoPlay loop muted>
           <source src={backgroundVideo} type='video/mp4' />
       </video> */}
