@@ -47,6 +47,7 @@ function IndexHeader({title, tagline, media}) {
         <video
           loop
           muted
+          playsinline
           autoplay
           src="${backgroundVideo}"
           class="videoBack"
