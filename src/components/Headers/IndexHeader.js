@@ -25,7 +25,7 @@ import { Container } from "reactstrap";
 import './IndexHeader.css'
 
 import backgroundVideo from '../../assets/img/vid-b.mp4'
-
+//
 // core components
 
 function IndexHeader({title, tagline, media}) {
