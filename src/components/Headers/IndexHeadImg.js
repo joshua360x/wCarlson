@@ -24,7 +24,7 @@ import { Container } from "reactstrap";
 
 import './IndexHeader.css'
 
-import backgroundVideo from '../../assets/img/newvidample.mp4'
+// import backgroundVideo from '../../assets/img/newvidample.mp4'
 
 // core components
 
