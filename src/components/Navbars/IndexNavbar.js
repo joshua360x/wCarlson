@@ -71,8 +71,8 @@ function IndexNavbar() {
           <NavbarBrand
             data-placement="bottom"
             href="/"
-            target="_blank"
-            title="Coded by Creative Tim"
+            target=""
+            title=""
           >
             Wally Carlson
           </NavbarBrand>
